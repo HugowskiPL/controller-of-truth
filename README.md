@@ -29,6 +29,9 @@ W wersji minimalnej to będzie arduino i LoRa, ale myślę że fajnie by to był
 
 w zasadzie to będzie niemal symetryczny z nadajnikiem, w wypadku wersji do drona trzeba będzie się postarać żeby to możliwie mało ważyło. Tak jak atmega z modułem na stałe wydaje się być słabym wyjściem do nadajnika tak do obiornika może być w sam raz.
 
+##
+[Film](https://www.youtube.com/watch?v=5BfRg9CUMYI&t=552s) gdzie gość robi coś podobnego
+
 ## Dalszy rozwój
 
 Istnieje coś takiego jak [Meshstatic](https://meshtastic.org/docs/introduction/) (open source), jest to (z tego co rozumiem) protokół meshowy wykorzystujący (ko by się spodziewał) [LoRa](https://lora-alliance.org/). Można by to wykorzystać do zbudowania roju dronów, o ile przepustowość samych modułów jest w stanie to udźwignąć. 
