@@ -5,17 +5,21 @@ Generyczny polot *o niepojętej mocy* mający służć za kontroler do czegokowi
 
 Wstępnie wybór padł na wykorzystanie modułów [LoRa](https://lora-alliance.org/), ze względu na dość dobre właściwości i niskie koszta
 
+### Tak ja to sobie wyobrażam
+![zaiste potężny pilot](https://a.allegroimg.com/s512/11b53a/f7985157427ab788c5b41778c997/Rozdzielacz-do-zurawia-HDS-sterowanie-radiowe-SCANRECO-pilot-z-joystickami-Numer-katalogowy-czesci-1122)
 
 ## Komunikacja
 
-Cały pomysł urodził się na bazie [ExpressLRS](https://www.expresslrs.org/) który ma służyć jako protokół do kontrolowana dronów (nie tylko latających) w czasie rzeczywistym.Z tego co widziałem wspiera telemetrie i przesyłąnie obrazu (i jest open source)
+Cały pomysł urodził się na bazie [ExpressLRS](https://www.expresslrs.org/) który ma służyć jako protokół do kontrolowana dronów (nie tylko latających) w czasie rzeczywistym. Z tego co widziałem wspiera telemetrie i przesyłąnie obrazu (i jest open source)
 
 LoRa przewiduje nadawanie na 433MHz *(ELRS nie wspiera)*, 868MHz, i 2,4GHz.
-Na potrzeby takiego pilota najlepsze powinno być pasmo 868MHz, da ono dość dobry zasięg i wysoką moc (poniesie może z 2 km w mieście z 10km w lesie*na oko*)
+Na potrzeby takiego pilota najlepsze powinno być pasmo 868MHz, da ono dość dobry zasięg (poniesie może z 2 km w mieście)
+>[!IMPORTANT]
+>Fajnie było by dorwać kilka takich modułów i zrobć rzeczwyiste pomiary jaki zasięg będzie to w stanie wyciągnąć.
 
 atmega z doklejonym modułem LoRa [link](https://nettigo.pl/products/modul-lora32u4-ii-v1-3-lora-sx1276-i-atmega32u4)
 
-nagi moduł LoRa [link](https://techfun.sk/pl/produkt/modu%C5%82-komunikacyjny-sx1276-lora-433-868-915-mhz/) [dokumentacja](https://cdn.sparkfun.com/assets/learn_tutorials/8/0/4/RFM95_96_97_98W.pdf)
+nagi moduł LoRa [link](https://techfun.sk/pl/produkt/modu%C5%82-komunikacyjny-sx1276-lora-433-868-915-mhz/), [dokumentacja](https://cdn.sparkfun.com/assets/learn_tutorials/8/0/4/RFM95_96_97_98W.pdf)
 
 ### Nadajnik
 
