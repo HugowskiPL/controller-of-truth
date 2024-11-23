@@ -17,9 +17,8 @@ Na potrzeby takiego pilota najlepsze powinno być pasmo 868MHz, da ono dość do
 >[!IMPORTANT]
 >Fajnie było by dorwać kilka takich modułów i zrobć rzeczwyiste pomiary jaki zasięg będzie to w stanie wyciągnąć.
 
-atmega z doklejonym modułem LoRa [link](https://nettigo.pl/products/modul-lora32u4-ii-v1-3-lora-sx1276-i-atmega32u4)
-
-nagi moduł LoRa [link](https://techfun.sk/pl/produkt/modu%C5%82-komunikacyjny-sx1276-lora-433-868-915-mhz/), [dokumentacja](https://cdn.sparkfun.com/assets/learn_tutorials/8/0/4/RFM95_96_97_98W.pdf)
++ atmega z doklejonym modułem LoRa [link](https://nettigo.pl/products/modul-lora32u4-ii-v1-3-lora-sx1276-i-atmega32u4)
++ nagi moduł LoRa [link](https://techfun.sk/pl/produkt/modu%C5%82-komunikacyjny-sx1276-lora-433-868-915-mhz/), [dokumentacja](https://cdn.sparkfun.com/assets/learn_tutorials/8/0/4/RFM95_96_97_98W.pdf)
 
 ### Nadajnik
 
@@ -28,8 +27,8 @@ W wersji minimalnej to będzie arduino i LoRa, ale myślę że fajnie by to był
 >[!IMPORTANT]
 >Z tego co widze to ELRS nie jest całkowicie samodzielny i działa z dodatkowym sofrwarem
 
-[OpenTX](https://www.open-tx.org/) *soft do nadajnika?*
-[Betaflight](https://betaflight.com/) *soft odbiornika*
++ [OpenTX](https://www.open-tx.org/) *soft do nadajnika?*
++ [Betaflight](https://betaflight.com/) *soft odbiornika?*
 
 >Prerequisites
 >You should be comfortable navigating through your Radio Handset firmware (OpenTX/EdgeTX) and setting up models, as the guide on this website mainly covers setting up your radio for you to be able to use ExpressLRS.
