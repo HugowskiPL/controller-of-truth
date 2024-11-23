@@ -1,7 +1,7 @@
 # Pilot ostateczny
 
 ## Założenia:
-Generyczny polot *o niepojętej mocy* mający służć za generyczny pilot do czegokowiek, działający z równie generycznym odbiornikiem.
+Generyczny polot *o niepojętej mocy* mający służć za kontroler do czegokowiek, działający z równie generycznym odbiornikiem.
 
 Wstępnie wybór padł na wykorzystanie modułów [LoRa](https://lora-alliance.org/), ze względu na dość dobre właściwości i niskie koszta
 
