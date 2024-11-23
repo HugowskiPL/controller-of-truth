@@ -10,7 +10,7 @@ Wstępnie wybór padł na wykorzystanie modułów [LoRa](https://lora-alliance.o
 
 ## Komunikacja
 
-Cały pomysł urodził się na bazie [ExpressLRS](https://www.expresslrs.org/) który ma służyć jako protokół do kontrolowana dronów (nie tylko latających) w czasie rzeczywistym. Z tego co widziałem wspiera telemetrie i przesyłąnie obrazu (i jest open source)
+Cały pomysł urodził się na bazie [ExpressLRS](https://www.expresslrs.org/) który ma służyć jako protokół do kontrolowana dronów (nie tylko latających) w czasie rzeczywistym. Z tego co widziałem wspiera telemetrie (i jest open source)
 
 LoRa przewiduje nadawanie na 433MHz *(ELRS nie wspiera)*, 868MHz, i 2,4GHz.
 Na potrzeby takiego pilota najlepsze powinno być pasmo 868MHz, da ono dość dobry zasięg (poniesie może z 2 km w mieście)
