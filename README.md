@@ -35,7 +35,7 @@ Obecnie najbardziej obiecujące i najmniej trudne w implementacji będzie OpenTX
 
 #### transciver
 
-Here be dragons, tematu jeszcze nie zgłębiłem. Wydaje się to być równie karkołomne co MB, wygląda to taj jakby użycie ELRS było rzeczywiście wykonalne.
+Sprawa wydaje się lekko przejebana. Najłatwiej będzie wykorzystać gotowy moduł za ok 250 zł i powinno to działać out of the box. Jakiekolwiek czarowanie z własnym nadajnikiem to rzecz jest rozwlekła i skomplikowana, lepiej to sobie zostawić na następny krok.
 
 ### Odbiornik
 
