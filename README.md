@@ -22,15 +22,26 @@ Na potrzeby takiego pilota najlepsze powinno być pasmo 868MHz, da ono dość do
 
 ### Nadajnik
 
-W wersji minimalnej to będzie arduino i LoRa, ale myślę że fajnie by to było zespolić z raspberry albo czymś podobnym. Dało by to znacznie więcej możliwości szczególnie że po [ELRS](https://www.expresslrs.org/) można wysyłać telemetrie, grzech nie skorzystać.
+Protokół
++ [ELRS](https://www.expresslrs.org/)
 
 Firmware
 + [OpenTX](https://www.open-tx.org/)
 + [EdgeTX](https://edgetx.org/about/) *fork OpenTX, ma mieć dotadkowe funkcje i szybszy rozwój*
 
+#### płyta główna
+
+Obecnie najbardziej obiecujące i najmniej trudne w implementacji będzie OpenTX na prockach z rodziny STM32, mam na myśli głównie płytke rozwojową NUCLEO-F429ZI. Została by takowa płytka nalarmiona właśnie OpenTX'em którego trzeba by dostosować. Dostosowywanie polegało by na konfiguracji wejść i ich definicji (co jest joystickiem co przyciskiem/przełącznikiem) oraz na ogarnięciu sterownika do ekranu **to jest do zrobienia**
+
+#### transciver
+
+Here be dragons, tematu jeszcze nie zgłębiłem. Wydaje się to być równie karkołomne co MB, wygląda to taj jakby użycie ELRS było rzeczywiście wykonalne.
+
 ### Odbiornik
 
-w zasadzie to będzie niemal symetryczny z nadajnikiem, w wypadku wersji do drona trzeba będzie się postarać żeby to możliwie mało ważyło. Tak jak atmega z modułem na stałe wydaje się być słabym wyjściem do nadajnika tak do obiornika może być w sam raz.
+~~w zasadzie to będzie niemal symetryczny z nadajnikiem, w wypadku wersji do drona trzeba będzie się postarać żeby to możliwie mało ważyło. Tak jak atmega z modułem na stałe wydaje się być słabym wyjściem do nadajnika tak do obiornika może być w sam raz.~~
+
+Tutaj rozwiązaniem powinien być dowolny odbiornik pod ELRS, bez żadnych udziwnień. Powinno to chyba działać out of the box i cała magia będzie się dziać w FC
 
 Firmware
 + [iNav](https://github.com/iNavFlight/inav) *imo najlepszy na nasze zastosowania* otwarty
