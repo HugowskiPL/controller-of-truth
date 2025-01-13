@@ -3,7 +3,8 @@
 ## Założenia:
 Generyczny polot *o niepojętej mocy* mający służć za kontroler do czegokowiek, działający z równie generycznym odbiornikiem.
 
-Wstępnie wybór padł na wykorzystanie modułów [LoRa](https://lora-alliance.org/), ze względu na dość dobre właściwości i niskie koszta
+~~Wstępnie wybór padł na wykorzystanie modułów [LoRa](https://lora-alliance.org/), ze względu na dość dobre właściwości i niskie koszta~~
+LoRa odpadła ze względu na kłopotliwą aplikacje, do zrobienia tego na LoRa trzeba by właściwie popełnić własną płytke z większym wzmacniaczem i prawdopodobnie zaprojektować swój protokół. Obecnie najlepszą opcją wydaje się ogarnięcie tego na dedykowanym module pod [ExpressLRS](https://www.expresslrs.org/).
 
 ### Tak ja to sobie wyobrażam
 ![zaiste potężny pilot](https://a.allegroimg.com/s512/11b53a/f7985157427ab788c5b41778c997/Rozdzielacz-do-zurawia-HDS-sterowanie-radiowe-SCANRECO-pilot-z-joystickami-Numer-katalogowy-czesci-1122)
