@@ -4,6 +4,7 @@
 Generyczny polot *o niepojętej mocy* mający służć za kontroler do czegokowiek, działający z równie generycznym odbiornikiem.
 
 ~~Wstępnie wybór padł na wykorzystanie modułów [LoRa](https://lora-alliance.org/), ze względu na dość dobre właściwości i niskie koszta~~
+
 LoRa odpadła ze względu na kłopotliwą aplikacje, do zrobienia tego na LoRa trzeba by właściwie popełnić własną płytke z większym wzmacniaczem i prawdopodobnie zaprojektować swój protokół. Obecnie najlepszą opcją wydaje się ogarnięcie tego na dedykowanym module pod [ExpressLRS](https://www.expresslrs.org/).
 
 ### Tak ja to sobie wyobrażam
